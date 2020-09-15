@@ -44,8 +44,8 @@ class AWM_Lvl2_Env(gym.Env):
         assert (A.shape[0] == A.shape[1]), 'The public links adjacency matrix of the files must be square'
         assert (B.shape[0] == B.shape[1]), 'The hidden links adjacency matrix of the files must be square'
         assert (A.shape[0] == B.shape[0]), 'The public links and the hidden links adjacency matrix must have the same shape'
-        assert (flag >= A.shape[0]), 'The file with the flag is beyond the count of the files'
-        assert (flag < 0), 'The file with the flag can not be negative'
+        assert (flag < A.shape[0]), 'The file with the flag is beyond the count of the files'
+        assert (flag >= 0), 'The file with the flag can not be negative'
         
         self.A = A.astype(np.bool)
         self.B = B.astype(np.bool)

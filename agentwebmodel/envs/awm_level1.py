@@ -40,8 +40,8 @@ class AWM_Lvl1_Env(gym.Env):
 
     def __init__(self,A,flag):
         assert (A.shape[0] == A.shape[1]), 'The adjacency matrix of the files must be square'
-        assert (flag >= A.shape[0]), 'The file with the flag is beyond the count of the files'
-        assert (flag < 0), 'The file with the flag can not be negative'
+        assert (flag < A.shape[0]), 'The file with the flag is beyond the count of the files'
+        assert (flag >= 0), 'The file with the flag can not be negative'
         
         self.A = A.astype(np.bool)
         self.n_files = A.shape[0]
