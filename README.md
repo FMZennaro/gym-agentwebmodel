@@ -34,5 +34,4 @@ For more details on the interface of the environment, check *Levels.md*.
 For more examples on how to use the basic environment, see *AWMLevel1-Example.ipynb*, *AWMLevel2-Example.ipynb*, and *AWMLevel3-Example.ipynb*. For more examples on how to use the learning environment, see *AWMLevel1-Learning.ipynb*, *AWMLevel2-Learning.ipynb*, and *AWMLevel3-Learning.ipynb*.
 
 ### References
-
 \[1\] Erdodi, L. and Zennaro, F.M., 2020. The Agent Web Model--Modelling web hacking for reinforcement learning. arXiv preprint arXiv:2009.11274.
