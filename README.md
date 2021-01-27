@@ -10,10 +10,10 @@ Clone this git and run `pip install -e gym-agentwebmodel` to make this environme
 ### Content
 The *gym-agentwebmodel* contains the implementation of the first three levels of hacking challenges described in [1].
 
-For each level $x$ we provide:
-- *AWM_Lvl$x$_Env*: this class provides a conceptual implementation of the first level of the Agent Web Model. This implementation favors interpretabilty, clarity and versatility. Level parameters may be set at instantiation time, and action and responsed are verbose. We recommend its use for exploring and understanding the problem, and for custom RL applications. The use of this class is exemplified in the *AWMLevel$x$-Example.ipynb* files.
+For each level *x* we provide:
+- *AWM_Lvlx_Env*: this class provides a conceptual implementation of the first level of the Agent Web Model. This implementation favors interpretabilty, clarity and versatility. Level parameters may be set at instantiation time, and action and responsed are verbose. We recommend its use for exploring and understanding the problem, and for custom RL applications. The use of this class is exemplified in the *AWMLevelx-Example.ipynb* files.
 
-- *AWM_Lvl$x$_Env_v1*: this class provides a practical implementation of the first level of the Agent Web Model. This implementation favors interoperability, hard-coding and learning. A specific choice of level parameters is encoded in the class, and action and responsed are reduced to integers. We recommend its use for training standard RL agents, such as *stable-baselines* agents. The use of this class is exemplified in the *AWMLevel$x$-Learning.ipynb* files.
+- *AWM_Lvlx_Env_v1*: this class provides a practical implementation of the first level of the Agent Web Model. This implementation favors interoperability, hard-coding and learning. A specific choice of level parameters is encoded in the class, and action and responsed are reduced to integers. We recommend its use for training standard RL agents, such as *stable-baselines* agents. The use of this class is exemplified in the *AWMLevelx-Learning.ipynb* files.
 
 
 ### Use
